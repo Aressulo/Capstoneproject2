@@ -1,0 +1,51 @@
+.gradient{
+    background: linear-gradient(300deg, #00bfff, #d000ff, #3441ff);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  body{
+    background-color: #939393;
+  }
+
+  #designimage {
+    border-radius: 10%;
+  }
+
+  a{
+    color: black;
+  }
+  
+  #footer-text{
+    color: rgba(248, 247, 250, 0.708);
+    font-size: 1.5rem;
+  }
+  
+ .gray{
+  background-color: #939393;
+ }
+
+ .font{
+  font-family: 'Inter', sans-serif;
+  font-family: 'Libre Baskerville', serif;
+ }
+
+ .white{
+  text-emphasis-color: antiquewhite;
+ }
+
+ #resume{
+  background-color: #939393;
+ }
